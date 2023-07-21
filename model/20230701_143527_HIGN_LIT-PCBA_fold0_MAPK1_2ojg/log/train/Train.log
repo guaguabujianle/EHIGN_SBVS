@@ -1,0 +1,28 @@
+2023-07-01 14:35:27 - INFO - train data: 46294
+2023-07-01 14:35:27 - INFO - val data: 15587
+2023-07-01 14:44:17 - INFO - epoch-1, train_loss-0.6797, val_loss-0.6075, val_acc-0.7134, val_sen-0.5844, val_spec-0.7140, val_ap-0.0180, val_bedroc-0.0752, val_auc-0.6989
+2023-07-01 14:46:10 - INFO - epoch-2, train_loss-0.6292, val_loss-0.5398, val_acc-0.8193, val_sen-0.3766, val_spec-0.8215, val_ap-0.0202, val_bedroc-0.0800, val_auc-0.7087
+2023-07-01 14:47:31 - INFO - epoch-3, train_loss-0.5903, val_loss-0.4986, val_acc-0.8603, val_sen-0.4416, val_spec-0.8624, val_ap-0.0273, val_bedroc-0.0866, val_auc-0.7107
+2023-07-01 14:48:58 - INFO - epoch-4, train_loss-0.5542, val_loss-0.4801, val_acc-0.8621, val_sen-0.3766, val_spec-0.8645, val_ap-0.0271, val_bedroc-0.0895, val_auc-0.6945
+2023-07-01 14:50:20 - INFO - epoch-5, train_loss-0.5095, val_loss-0.4233, val_acc-0.8959, val_sen-0.2727, val_spec-0.8990, val_ap-0.0264, val_bedroc-0.0908, val_auc-0.7070
+2023-07-01 14:51:46 - INFO - epoch-6, train_loss-0.4714, val_loss-0.3454, val_acc-0.9229, val_sen-0.2078, val_spec-0.9264, val_ap-0.0226, val_bedroc-0.0883, val_auc-0.7010
+2023-07-01 14:53:01 - INFO - epoch-7, train_loss-0.4363, val_loss-0.3232, val_acc-0.9292, val_sen-0.1818, val_spec-0.9329, val_ap-0.0234, val_bedroc-0.0904, val_auc-0.6779
+2023-07-01 14:54:28 - INFO - epoch-8, train_loss-0.4010, val_loss-0.2955, val_acc-0.9359, val_sen-0.1818, val_spec-0.9397, val_ap-0.0248, val_bedroc-0.0963, val_auc-0.6826
+2023-07-01 14:55:50 - INFO - epoch-9, train_loss-0.3652, val_loss-0.2567, val_acc-0.9484, val_sen-0.1688, val_spec-0.9522, val_ap-0.0222, val_bedroc-0.0914, val_auc-0.6796
+2023-07-01 14:57:08 - INFO - epoch-10, train_loss-0.3366, val_loss-0.3218, val_acc-0.9183, val_sen-0.2338, val_spec-0.9217, val_ap-0.0198, val_bedroc-0.0953, val_auc-0.6845
+2023-07-01 14:58:33 - INFO - epoch-11, train_loss-0.3075, val_loss-0.2886, val_acc-0.9288, val_sen-0.1948, val_spec-0.9324, val_ap-0.0206, val_bedroc-0.0915, val_auc-0.6619
+2023-07-01 14:59:50 - INFO - epoch-12, train_loss-0.2825, val_loss-0.1965, val_acc-0.9604, val_sen-0.1299, val_spec-0.9645, val_ap-0.0240, val_bedroc-0.0939, val_auc-0.6393
+2023-07-01 15:01:17 - INFO - epoch-13, train_loss-0.2628, val_loss-0.2392, val_acc-0.9480, val_sen-0.1818, val_spec-0.9518, val_ap-0.0184, val_bedroc-0.0897, val_auc-0.6297
+2023-07-01 15:02:32 - INFO - epoch-14, train_loss-0.2377, val_loss-0.1851, val_acc-0.9633, val_sen-0.1169, val_spec-0.9675, val_ap-0.0166, val_bedroc-0.0919, val_auc-0.6323
+2023-07-01 15:03:55 - INFO - epoch-15, train_loss-0.2228, val_loss-0.1377, val_acc-0.9768, val_sen-0.1039, val_spec-0.9811, val_ap-0.0124, val_bedroc-0.0732, val_auc-0.5810
+2023-07-01 15:05:16 - INFO - epoch-16, train_loss-0.2057, val_loss-0.1368, val_acc-0.9750, val_sen-0.1039, val_spec-0.9793, val_ap-0.0154, val_bedroc-0.0841, val_auc-0.6127
+2023-07-01 15:06:31 - INFO - epoch-17, train_loss-0.1910, val_loss-0.1299, val_acc-0.9770, val_sen-0.1039, val_spec-0.9813, val_ap-0.0206, val_bedroc-0.0913, val_auc-0.6205
+2023-07-01 15:07:53 - INFO - epoch-18, train_loss-0.1780, val_loss-0.1128, val_acc-0.9798, val_sen-0.0779, val_spec-0.9843, val_ap-0.0158, val_bedroc-0.0770, val_auc-0.6038
+2023-07-01 15:09:06 - INFO - epoch-19, train_loss-0.1675, val_loss-0.1315, val_acc-0.9729, val_sen-0.1039, val_spec-0.9772, val_ap-0.0166, val_bedroc-0.0861, val_auc-0.6017
+2023-07-01 15:10:28 - INFO - epoch-20, train_loss-0.1544, val_loss-0.1082, val_acc-0.9813, val_sen-0.0779, val_spec-0.9858, val_ap-0.0161, val_bedroc-0.0877, val_auc-0.5920
+2023-07-01 15:11:41 - INFO - epoch-21, train_loss-0.1435, val_loss-0.1293, val_acc-0.9752, val_sen-0.0779, val_spec-0.9797, val_ap-0.0175, val_bedroc-0.0824, val_auc-0.6052
+2023-07-01 15:13:03 - INFO - epoch-22, train_loss-0.1366, val_loss-0.1083, val_acc-0.9793, val_sen-0.0779, val_spec-0.9838, val_ap-0.0192, val_bedroc-0.0866, val_auc-0.6072
+2023-07-01 15:14:19 - INFO - epoch-23, train_loss-0.1261, val_loss-0.1103, val_acc-0.9792, val_sen-0.0649, val_spec-0.9838, val_ap-0.0133, val_bedroc-0.0646, val_auc-0.6035
+2023-07-01 15:15:42 - INFO - epoch-24, train_loss-0.1160, val_loss-0.0881, val_acc-0.9838, val_sen-0.0649, val_spec-0.9884, val_ap-0.0143, val_bedroc-0.0771, val_auc-0.5720
+2023-07-01 15:15:42 - INFO - early stop in epoch 24
+2023-07-01 15:15:42 - INFO - best_bedroc: 0.0963

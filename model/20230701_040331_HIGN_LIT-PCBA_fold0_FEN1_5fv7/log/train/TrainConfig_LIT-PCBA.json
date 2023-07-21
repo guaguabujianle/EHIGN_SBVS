@@ -1,0 +1,1 @@
+{"model": "HIGN_LIT-PCBA", "data_root": "/data2/yzd/docking/SBVS/dataset", "save_dir": "/data2/yzd/model/HIGN_v2", "epochs": 800, "batch_size": 128, "early_stop_epoch": 200, "fold": 0, "repeat": 10, "save_model": true, "create": true, "target": "FEN1_5fv7", "mark": "FEN1_5fv7"}

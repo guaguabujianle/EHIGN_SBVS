@@ -1,0 +1,16 @@
+{
+    "train":
+    {
+        "model": "HIGN_LIT-PCBA", 
+        "data_root" : "/data2/yzd/docking/SBVS/LIT-PCBA/docking_poses",
+        "save_dir" : "./model",
+        "fold" : 0,
+        "epochs" : 200,
+        "steps_per_epoch" : 100,
+        "batch_size" : 1000,
+        "early_stop_epoch" : 30,
+        "save_model": true, 
+        "create" : true,
+        "target": "FEN1_5fv7"
+    }
+}
