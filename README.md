@@ -3,7 +3,7 @@
 ## Dataset
 The LIP-PCBA dataset is publicly available and can be accessed here:
 - Original LIT-PCBA [1]: https://drugdesign.unistra.fr/LIT-PCBA/
-- 3D structure available one [2]: https://zenodo.org/record/4291725#.X7-JHTOUMyg 
+- 3D structure available one [2]: https://zenodo.org/record/4291725#.X7-JHTOUMyg  
 You can download the preprocessed data from: 
 
 ## Requirements  
