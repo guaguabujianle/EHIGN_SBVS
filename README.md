@@ -36,30 +36,15 @@ openbabel==3.3.1 (conda install -c conda-forge openbabel)
 ## Step-by-step running:  
 
 ### 1. Model training
-Firstly, download the preprocessed datasets from https://drive.google.com/file/d/1oGUP4z7htNXyxTqx95HNSDLsaoxa3fX7/view?usp=share_link, and put them into this folder and organize them as './data/train', './data/valid', './data/test2013/', './data/test2016/', and  './data/test2019/'.  
-Secondly, run train.py using `python train.py`.  
 
 ### 2. Model testing
-Run test.py using `python test.py`.    
-You may need to modify some file paths in the source code before running it.
 
 ### 3. Process raw data
-We provide a demo to explain how to process the raw data. This demo use ./data/toy_examples.csv and ./data/toy_set/ as examples.  
-Firstly, run preprocess_complex.py using `python preprocess_complex.py`.    
-Secondly, run graph_constructor.py using `python graph_constructor.py`.  
-Thirdly, run train.py using `python train_example.py`.    
 
 ### 4. Test the trained model in other external test sets
-Firstly, please organize the data as a structure similar to './data/toy_set' folder.  
--data  
-&ensp;&ensp;-external_test  
-&ensp; &ensp;&ensp;&ensp; -pdb_id  
-&ensp; &ensp; &ensp;&ensp;&ensp;&ensp;-pdb_id_ligand.mol2  
-&ensp; &ensp; &ensp;&ensp;&ensp;&ensp;-pdb_id_protein.pdb  
-Secondly, run preprocess_complex.py using `python preprocess_complex.py`.  
-Thirdly, run graph_constructor.py using `python graph_constructor.py`.  
-Fourth, run test.py using `python test.py`.  
-You may need to modify some file paths in the source code before running it.  
 
-### 5. Cold start settings
-The datasets for the cold start settings can be found in the './cold_start_data' folder. These datasets are created from the original training set, taking into account structural differences. If you have already processed the original training set and placed it in the './data/train' folder, you can directly execute the 'train_random.py', 'train_scaffold.py', and 'train_sequence.py' scripts.
+## Reference
+[1] Tran-Nguyen V K, Jacquemard C, Rognan D. LIT-PCBA: an unbiased data set for machine learning and virtual screening[J]. Journal of chemical information and modeling, 2020, 60(9): 4263-4273.  
+[2] Shen C, Weng G, Zhang X, et al. Accuracy or novelty: what can we gain from target-specific machine-learning-based scoring functions in virtual screening?[J]. Briefings in Bioinformatics, 2021, 22(5): bbaa410.
+
+
