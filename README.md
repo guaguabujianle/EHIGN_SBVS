@@ -34,13 +34,16 @@ openbabel==3.3.1 (conda install -c conda-forge openbabel)
 + **test.py**, By default, this will use the seven trained models in ./model dir to predict.
 
 ## Step-by-step running: will be available soon.  
-### 1. Model training
+### 1. Reproduce the reported results
+The ./model directory contains seven trained models that can be used to reproduce the reported results.
 
-### 2. Model testing
+### 2. Model training
 
-### 3. Process raw data
+### 3. Model testing
 
-### 4. Test the trained model in other external test sets
+### 4. Process raw data
+
+### 5. Test the trained model in other external test sets
 
 ## Reference
 [1] Tran-Nguyen V K, Jacquemard C, Rognan D. LIT-PCBA: an unbiased data set for machine learning and virtual screening[J]. Journal of chemical information and modeling, 2020, 60(9): 4263-4273.  
