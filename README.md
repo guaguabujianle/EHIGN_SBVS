@@ -3,9 +3,9 @@
 ## Dataset
 The LIP-PCBA dataset is publicly available and can be accessed here:
 - Original LIT-PCBA [1]: https://drugdesign.unistra.fr/LIT-PCBA/
-- 3D structure available one [2]: https://zenodo.org/record/4291725#.X7-JHTOUMyg  
+- Docked data (with 3D structures for small compounds) [2]: https://zenodo.org/record/4291725#.X7-JHTOUMyg  
 
-You can download the preprocessed data from: 
+You can download the preprocessed data (molecular graphs) from: will be available soon.
 
 ## Requirements  
 dgl==0.9.0  
@@ -33,8 +33,7 @@ openbabel==3.3.1 (conda install -c conda-forge openbabel)
 + **train.py**: Train EHIGN model. Change config/TrainConfig.json before running it.
 + **test.py**, By default, this will use the seven trained models in ./model dir to predict.
 
-## Step-by-step running:  
-
+## Step-by-step running: will be available soon.  
 ### 1. Model training
 
 ### 2. Model testing
