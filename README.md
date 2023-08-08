@@ -42,7 +42,7 @@ openbabel==3.3.1 (conda install -c conda-forge openbabel)
 
 ## Step-by-step Running
 
-### 1. Organize the Data
+### Organize the Data
 Download processed data from [Link 1](https://zenodo.org/record/8208800) and [Link 2](https://zenodo.org/record/8219837).  
 Organize the data as follows:  
 
@@ -59,21 +59,19 @@ Organize the data as follows:
 &ensp;&ensp;&ensp;&ensp; ...  
 ...  
 
-
-
 ### Reproduce Results
 The `./model` directory contains seven trained models for reproducing results.
 
 ### Train the Model
 run `python train.py --data_root your_own_data_path/docking_poses`
 
-### 4. Model testing
-python test.py --data_root your_own_data_path/docking_poses  
-By default, this will use the seven trained models in the ./model directory to predict.
+### Test the Model
+run `python test.py --data_root your_own_data_path/docking_poses`  
+By default, the seven trained models in the `./model` directory are used.
 
-### 5. Process raw data
-python preprocess_complex.py --data_root your_own_data_path/docking_poses  
-python graph_constructor.py --data_root your_own_data_path/docking_poses  
+### Process Raw Data
+First, run `python preprocess_complex.py --data_root your_own_data_path/docking_poses`
+Then, run `python graph_constructor.py --data_root your_own_data_path/docking_poses` to generate graphs
 
 ## Reference
 [1] Tran-Nguyen V K, Jacquemard C, Rognan D. LIT-PCBA: an unbiased data set for machine learning and virtual screening[J]. Journal of chemical information and modeling, 2020, 60(9): 4263-4273.  
