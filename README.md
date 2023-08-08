@@ -36,7 +36,7 @@ openbabel==3.3.1 (conda install -c conda-forge openbabel)
 + **test.py**, By default, this will use the seven trained models in the ./model directory to predict.
 
 ## Step-by-step running:
-Firstly, please organize the data as:
+Firstly, please organize the data as:  
 -docking_poses  
 &ensp;&ensp;-ALDH1_4x4l  
 &ensp;&ensp;&ensp;&ensp; -train  
