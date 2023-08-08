@@ -1,15 +1,18 @@
 # EHIGN_SBVS
 
 ## Dataset
-The LIP-PCBA dataset is publicly available and can be accessed here:
-- Original LIT-PCBA [1]: https://drugdesign.unistra.fr/LIT-PCBA/
-- Docked data (with 3D structures for small compounds) [2]: https://zenodo.org/record/4291725#.X7-JHTOUMyg  
+The LIP-PCBA dataset is publicly available at the following locations:
 
-You can download the preprocessed data (molecular graphs) from:  
-https://zenodo.org/record/8208800  
-https://zenodo.org/record/8219837  
+- **Original LIT-PCBA [1]:** [Link](https://drugdesign.unistra.fr/LIT-PCBA/)
+- **Docked Data (with 3D structures for small compounds) [2]:** [Link](https://zenodo.org/record/4291725#.X7-JHTOUMyg)
 
-## Requirements  
+Preprocessed data (molecular graphs) can be downloaded from:
+
+- [Link 1](https://zenodo.org/record/8208800)
+- [Link 2](https://zenodo.org/record/8219837)
+
+## Requirements
+The following Python packages are required:  
 dgl==0.9.0  
 networkx==2.5  
 numpy==1.19.2  
