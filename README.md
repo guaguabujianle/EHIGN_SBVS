@@ -3,13 +3,13 @@
 ## Dataset
 The LIP-PCBA dataset is publicly available at the following locations:
 
-- **Original LIT-PCBA [1]:** [Link](https://drugdesign.unistra.fr/LIT-PCBA/)
-- **Docked Data (with 3D structures for small compounds) [2]:** [Link](https://zenodo.org/record/4291725#.X7-JHTOUMyg)
+- **Original LIT-PCBA [1]:** [LIT-PCBA](https://drugdesign.unistra.fr/LIT-PCBA/)
+- **Docked Data (with 3D structures for small compounds) [2]:** [3D Structures](https://zenodo.org/record/4291725#.X7-JHTOUMyg)
 
 Preprocessed data (molecular graphs) can be downloaded from:
 
-- [Link 1](https://zenodo.org/record/8208800)
-- [Link 2](https://zenodo.org/record/8219837)
+- [Graphs 1](https://zenodo.org/record/8208800)
+- [Graphs 2](https://zenodo.org/record/8219837)
 
 ## Requirements
 The following Python packages are required:  
@@ -43,7 +43,7 @@ openbabel==3.3.1 (conda install -c conda-forge openbabel)
 ## Step-by-step Running
 
 ### Organize the Data
-Download processed data from [Link 1](https://zenodo.org/record/8208800) and [Link 2](https://zenodo.org/record/8219837).  
+Download processed data from [Graphs 1](https://zenodo.org/record/8208800) and [Graphs 2](https://zenodo.org/record/8219837).  
 Organize the data as follows:  
 
 -docking_poses  
