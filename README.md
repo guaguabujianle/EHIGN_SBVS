@@ -56,6 +56,7 @@ You can download the processed data from https://zenodo.org/record/8208800 and h
 The ./model directory contains seven trained models that can be used to reproduce the reported results.
 
 ### 2. Model training
+python train.py --data_root your_own_path_here/docking_poses
 
 ### 3. Model testing
 
