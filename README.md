@@ -25,21 +25,26 @@ torch==1.10.2
 tqdm==4.63.0  
 openbabel==3.3.1 (conda install -c conda-forge openbabel)
 
-## Descriptions of folders and files
-+ **./config**: Parameters used in EHIGN, you should change the "data_root" in TrainConfig.json to your own one.
-+ **./log**: Logger.
-+ **./model**: This directory contains several trained models that can be used to reproduce the reported results.
-+ **CIGConv.py**: The implementation of CIGConv.
-+ **NIGConv.py**: The implementation of NIGConv.
-+ **EHIGN.py**: The implementation of EHIGN.
-+ **HGC.py**: The implementation of the heterogeneous graph neural network, where most of the contents are copied from the source code of dgl, but we have made some modifications so that it can process edge features.
-+ **preprocess_complex.py**: Prepare input complexes. First, you can download the data from https://zenodo.org/record/4291725#.X7-JHTOUMyg [2]. Then you should replace the data_root with your own path. Finally, run "python preprocess_complex.py"
-+ **graph_constructor.py**: Convert protein-ligand complexes into heterogeneous graphs. You should replace the data_root with your own path.
-+ **train.py**: Train EHIGN model. Change config/TrainConfig.json before running it.
-+ **test.py**, By default, this will use the seven trained models in the ./model directory to predict.
+## Structure and Descriptions
 
-## Step-by-step running:
-Firstly, please organize the data as:  
+### Directories
+- **`./config`:** Parameters used in EHIGN.
+- **`./log`:** Logger.
+- **`./model`:** Contains several trained models for reproducing results.
+
+### Files
+- **`CIGConv.py`, `NIGConv.py`, `EHIGN.py`:** Implementations of CIGConv, NIGConv, and EHIGN.
+- **`HGC.py`:** Heterogeneous graph neural network implementation (modified from dgl source code).
+- **`preprocess_complex.py`:** Prepare input complexes.
+- **`graph_constructor.py`:** Convert protein-ligand complexes into heterogeneous graphs.
+- **`train.py`:** Train the EHIGN model.
+- **`test.py`:** Use models in ./model directory for prediction.
+
+## Step-by-step Running
+
+### Organize the Data
+Organize the data as follows:  
+
 -docking_poses  
 &ensp;&ensp;-ALDH1_4x4l  
 &ensp;&ensp;&ensp;&ensp; -train  
