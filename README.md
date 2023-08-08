@@ -25,17 +25,31 @@ openbabel==3.3.1 (conda install -c conda-forge openbabel)
 ## Descriptions of folders and files
 + **./config**: Parameters used in EHIGN, you should change the "data_root" in TrainConfig.json to your own one.
 + **./log**: Logger.
-+ **./model**: This dir contains several trained models that can be used to reproduce the reported results.
++ **./model**: This directory contains several trained models that can be used to reproduce the reported results.
 + **CIGConv.py**: The implementation of CIGConv.
 + **NIGConv.py**: The implementation of NIGConv.
 + **EHIGN.py**: The implementation of EHIGN.
 + **HGC.py**: The implementation of the heterogeneous graph neural network, where most of the contents are copied from the source code of dgl, but we have made some modifications so that it can process edge features.
-+ **preprocess_complex.py**: Prepare input complexes. First, you should download the data from https://zenodo.org/record/4291725#.X7-JHTOUMyg. Then you should replace the data_root with your own path. Finally, run "python preprocess_complex.py"
++ **preprocess_complex.py**: Prepare input complexes. First, you can download the data from https://zenodo.org/record/4291725#.X7-JHTOUMyg [2]. Then you should replace the data_root with your own path. Finally, run "python preprocess_complex.py"
 + **graph_constructor.py**: Convert protein-ligand complexes into heterogeneous graphs. You should replace the data_root with your own path.
 + **train.py**: Train EHIGN model. Change config/TrainConfig.json before running it.
-+ **test.py**, By default, this will use the seven trained models in ./model dir to predict.
++ **test.py**, By default, this will use the seven trained models in the ./model directory to predict.
 
-## Step-by-step running: will be available soon.  
+## Step-by-step running:
+Firstly, please organize the data as:
+-docking_poses  
+&ensp;&ensp;-ALDH1_4x4l
+&ensp; &ensp;&ensp;&ensp; -train
+&ensp; &ensp;&ensp;&ensp;&ensp;ALDH1_4x4l_decoys_22407376-EHIGN.dgl
+&ensp; &ensp;&ensp;&ensp;&ensp;...
+&ensp; &ensp;&ensp;&ensp; -val
+&ensp; &ensp;&ensp;&ensp;&ensp;...
+&ensp;&ensp;-FEN1_5fv7
+&ensp;&ensp;-GBA_2v3e
+...
+
+You can download the processed data from https://zenodo.org/record/8208800 and https://zenodo.org/record/8219837
+
 ### 1. Reproduce the reported results
 The ./model directory contains seven trained models that can be used to reproduce the reported results.
 
