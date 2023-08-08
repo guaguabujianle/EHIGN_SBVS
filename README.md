@@ -43,6 +43,7 @@ openbabel==3.3.1 (conda install -c conda-forge openbabel)
 ## Step-by-step Running
 
 ### 1. Organize the Data
+Download processed data from [Link 1](https://zenodo.org/record/8208800) and [Link 2](https://zenodo.org/record/8219837).  
 Organize the data as follows:  
 
 -docking_poses  
@@ -58,7 +59,7 @@ Organize the data as follows:
 &ensp;&ensp;&ensp;&ensp; ...  
 ...  
 
-Download processed data from [Link 1](https://zenodo.org/record/8208800) and [Link 2](https://zenodo.org/record/8219837).
+
 
 ### Reproduce Results
 The `./model` directory contains seven trained models for reproducing results.
