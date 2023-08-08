@@ -38,15 +38,15 @@ openbabel==3.3.1 (conda install -c conda-forge openbabel)
 ## Step-by-step running:
 Firstly, please organize the data as:
 -docking_poses  
-&ensp;&ensp;-ALDH1_4x4l
-&ensp; &ensp;&ensp;&ensp; -train
-&ensp; &ensp;&ensp;&ensp;&ensp;ALDH1_4x4l_decoys_22407376-EHIGN.dgl
-&ensp; &ensp;&ensp;&ensp;&ensp;...
-&ensp; &ensp;&ensp;&ensp; -val
-&ensp; &ensp;&ensp;&ensp;&ensp;...
-&ensp;&ensp;-FEN1_5fv7
-&ensp;&ensp;-GBA_2v3e
-...
+&ensp;&ensp;-ALDH1_4x4l  
+&ensp; &ensp;&ensp;&ensp; -train  
+&ensp; &ensp;&ensp;&ensp;&ensp;ALDH1_4x4l_decoys_22407376-EHIGN.dgl  
+&ensp; &ensp;&ensp;&ensp;&ensp;...  
+&ensp; &ensp;&ensp;&ensp; -val  
+&ensp; &ensp;&ensp;&ensp;&ensp;...  
+&ensp;&ensp;-FEN1_5fv7  
+&ensp;&ensp;-GBA_2v3e  
+...  
 
 You can download the processed data from https://zenodo.org/record/8208800 and https://zenodo.org/record/8219837
 
