@@ -63,8 +63,7 @@ python test.py --data_root your_own_data_path/docking_poses
 By default, this will use the seven trained models in the ./model directory to predict.
 
 ### 4. Process raw data
-
-### 5. Test the trained model in other external test sets
+python preprocess_complex.py --data_root your_own_data_path/docking_poses  
 
 ## Reference
 [1] Tran-Nguyen V K, Jacquemard C, Rognan D. LIT-PCBA: an unbiased data set for machine learning and virtual screening[J]. Journal of chemical information and modeling, 2020, 60(9): 4263-4273.  
