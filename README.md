@@ -70,7 +70,7 @@ run `python test.py --data_root your_own_data_path/docking_poses`
 By default, the seven trained models in the `./model` directory are used.
 
 ### Process Raw Data
-First, run `python preprocess_complex.py --data_root your_own_data_path/docking_poses`
+First, run `python preprocess_complex.py --data_root your_own_data_path/docking_poses`  
 Then, run `python graph_constructor.py --data_root your_own_data_path/docking_poses` to generate graphs
 
 ## Reference
