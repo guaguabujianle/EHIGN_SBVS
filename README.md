@@ -42,7 +42,7 @@ openbabel==3.3.1 (conda install -c conda-forge openbabel)
 
 ## Step-by-step Running
 
-### Organize the Data
+### 1. Organize the Data
 Organize the data as follows:  
 
 -docking_poses  
@@ -58,19 +58,19 @@ Organize the data as follows:
 &ensp;&ensp;&ensp;&ensp; ...  
 ...  
 
-You can download the processed data from https://zenodo.org/record/8208800 and https://zenodo.org/record/8219837
+Download processed data from [Link 1](https://zenodo.org/record/8208800) and [Link 2](https://zenodo.org/record/8219837).
 
-### 1. Reproduce the reported results
-The ./model directory contains seven trained models that can be used to reproduce the reported results.
+### Reproduce Results
+The `./model` directory contains seven trained models for reproducing results.
 
-### 2. Model training
-python train.py --data_root your_own_data_path/docking_poses
+### Train the Model
+run `python train.py --data_root your_own_data_path/docking_poses`
 
-### 3. Model testing
+### 4. Model testing
 python test.py --data_root your_own_data_path/docking_poses  
 By default, this will use the seven trained models in the ./model directory to predict.
 
-### 4. Process raw data
+### 5. Process raw data
 python preprocess_complex.py --data_root your_own_data_path/docking_poses  
 python graph_constructor.py --data_root your_own_data_path/docking_poses  
 
