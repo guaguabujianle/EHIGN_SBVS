@@ -1,4 +1,5 @@
-# EHIGN_SBVS
+# Interaction-Based Inductive Bias in Graph Neural Networks: Enhancing Protein-Ligand Binding Affinity Predictions from 3D Structures
+This repository contains the source code for structure-based virtual screening (SBVS). For protein-ligand affinity (PLA) predictions, please refer to our dedicated repository at [EHIGN_PLA on GitHub](https://github.com/guaguabujianle/EHIGN_PLA).
 
 ## Dataset
 The LIP-PCBA dataset is publicly available at the following locations:
